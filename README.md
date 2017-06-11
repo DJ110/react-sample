@@ -27,27 +27,14 @@ You can access http://localhost:3000/data/data.json as test.
 
 ## Source Structure
 react-sample  
-|- dist : Build result
-|- nodeapp : Node application to test Ajax request etc...  
-|- src  : Main source codes
-|   |- actions  : Action  
-|   |- components : React components  
-|   |- const : Constant data  
-|   |- pages : Page components  
-|   |- reducers : Reducers
-|   |- styles : CSS, SCSS files
-|   |- entry point
-|- .babelrc : Babel setting  
-|- index.html : Template html to create html template with htmlplugin  
-|- package.json  
-|- README.md  
-|- webpack.config.js  
-|- config  
-     |- helpers.js  
-     |- webpack.common.js  
-     |- webpack.dev.js  
-     |- webpack.prod.js  
-     |- webpack.stg.js  
+* webpack.config  
+Kick webpack file  
+
+* src  
+Main source files  
+
+* src/index.jsx
+Entry file  
 
 ## Tutorial  
 1. Webpack2  
