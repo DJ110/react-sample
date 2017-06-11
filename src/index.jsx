@@ -19,6 +19,7 @@ import ReduxFormHome from './pages/ReduxFormHome.jsx';
 import ReduxFormValidation from './pages/ReduxFormValidation.jsx';
 import FirstReduxSamplePageContainer from './pages/FirstReduxSamplePage.jsx';
 import FetchSamplePageContainer from './pages/FetchSamplePage.jsx';
+import ReduxFormInit from './pages/ReduxFormInit.jsx';
 
 /* Initial State -> Can move */
 const initialState = {
@@ -28,6 +29,10 @@ const initialState = {
     fetchsampleReducer: {
         isFetching: false,
         items: []
+    },
+    initformReducer: {
+        data: { firstName: 'Joe',
+        lastName: 'Ito'}
     }
 };
 
@@ -47,6 +52,7 @@ ReactDOM.render(
                 <Route exact path="/fetch" component={FetchSamplePageContainer} />
                 <Route exact path="/form" component={ReduxFormHome}/>
                 <Route exact path="/form/validation" component={ReduxFormValidation}/>
+                <Route exact path="/form/init" component={ReduxFormInit}/>
             </Switch>
         </Router>
     </Provider>,                        // React Components

@@ -33,7 +33,7 @@ Kick webpack file
 * src  
 Main source files  
 
-* src/index.jsx
+* src/index.jsx  
 Entry file  
 
 ## Tutorial  
@@ -48,6 +48,7 @@ Entry file
 ## Webpack2
 
 ## Hello React!
+Access Point http://localhost:8080/
 
 ## License  
 [MIT]  

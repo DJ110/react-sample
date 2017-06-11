@@ -3,13 +3,13 @@
  */
 import { combineReducers } from 'redux';
 import { reducer as formReducer } from 'redux-form';
-import { initFormReducer } from './initFormReducer.jsx';
+import { initformReducer } from './initformReducer.jsx';
 import { firstsampleReducer } from './firstsampleReducer.jsx';
 import { fetchsampleReducer } from './fetchsampleReducer.jsx';
 
 export const reducers = combineReducers({
     form: formReducer,
-    initFormReducer,
+    initformReducer,
     firstsampleReducer,
     fetchsampleReducer
 });
