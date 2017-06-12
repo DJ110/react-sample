@@ -44,11 +44,17 @@ Entry file
 5. React Router(react-router-dom)
 6. React Ajax
 7. ReactForm  
+8. Localize
 
 ## Webpack2
 
 ## Hello React!
 Access Point http://localhost:8080/
+
+
+## Localize
+Install react-intl
+    npm install --save react-intl
 
 ## License  
 [MIT]  
