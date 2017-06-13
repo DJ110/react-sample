@@ -7,7 +7,7 @@ import { connect } from 'react-redux'
 import { Field, reduxForm } from 'redux-form';
 
 let InitializeFormStateForm = (props) => {
-    const { handleSubmit, load, pristine, reset, submitting } = props;
+    const { handleSubmit, pristine, reset, submitting } = props;
 
     return (
       <form onSubmit={handleSubmit}>
