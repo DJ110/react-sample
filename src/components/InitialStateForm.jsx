@@ -44,7 +44,7 @@ let InitializeFormStateForm = (props) => {
 
 function mapStateToProps(state) {
     return {
-        initialValues: state.initformReducer.data    //http://qiita.com/usagi-f/items/ae568fb64c2eac882d05
+        initialValues: state.initformReducer.data
     }
 }
 

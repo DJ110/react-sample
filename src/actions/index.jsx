@@ -6,7 +6,7 @@ import 'whatwg-fetch';
 import { CHANGE } from '../const/constants.jsx';
 import { REQUEST_DATA, REQUEST_DATA_SUCCESS, REQUEST_DATA_FAIL } from '../const/constants.jsx';
 
-/* This AcitonCreator is for FirstReduxSample */
+/* This ActionCreator is for FirstReduxSample */
 export function change(value) {
     return {
         type: CHANGE,
