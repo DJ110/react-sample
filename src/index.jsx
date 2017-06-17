@@ -26,6 +26,7 @@ import FirstReduxSamplePageContainer from './pages/FirstReduxSamplePage.jsx';
 import FetchSamplePageContainer from './pages/FetchSamplePage.jsx';
 import ReduxFormInit from './pages/ReduxFormInit.jsx';
 import LocalizedPage from './pages/LocalizedPage.jsx';
+import DidMountFormPage from './pages/DidMountFormPage.jsx';
 
 /* Initial State -> Can move */
 const initialState = {
@@ -39,6 +40,9 @@ const initialState = {
     initformReducer: {
         data: { firstName: 'Joe',
         lastName: 'Ito'}
+    },
+    didMountFormReducer: {
+        data :{}
     }
 };
 
@@ -60,6 +64,7 @@ ReactDOM.render(
                     <Route exact path="/form" component={ReduxFormHome}/>
                     <Route exact path="/form/validation" component={ReduxFormValidation}/>
                     <Route exact path="/form/init" component={ReduxFormInit}/>
+                    <Route exact path="/form/didmount" component={DidMountFormPage}/>
                     <Route exact path="/localized" component={LocalizedPage} />
                 </Switch>
             </Router>

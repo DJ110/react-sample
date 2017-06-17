@@ -5,6 +5,8 @@ import 'whatwg-fetch';
 
 import { CHANGE } from '../const/constants.jsx';
 import { REQUEST_DATA, REQUEST_DATA_SUCCESS, REQUEST_DATA_FAIL } from '../const/constants.jsx';
+import { FORM_LOAD } from '../const/constants.jsx';
+import { MOUNT_FORM_DATA } from '../const/constants.jsx';
 
 /* This ActionCreator is for FirstReduxSample */
 export function change(value) {
@@ -17,7 +19,6 @@ export function change(value) {
 
 /* This ActionCreator is for FetchSample */
 function invalidateData(e) {
-    console.log(e);
     return {
         type: REQUEST_DATA_FAIL,
         data: [],
@@ -50,3 +51,12 @@ export function fetchData() {
                 dispatch(invalidateData(e)));
     }
 }
+
+/* ActionCreator for Form */
+export function didMount(data) {
+    return {
+        type: MOUNT_FORM_DATA,
+        data: data
+    }
+}
+
