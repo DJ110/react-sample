@@ -45,6 +45,7 @@ Entry file
 6. React Ajax
 7. ReactForm  
 8. Localize
+9. Bootstrap
 
 ## Webpack2
 
@@ -55,6 +56,13 @@ Access Point http://localhost:8080/
 ## Localize
 Install react-intl
     npm install --save react-intl
+
+## Bootstrap
+Install bootstrap  
+    npm install bootstrap --save
+
+React Bootstrap  
+    npm install react-bootstrap --save
 
 ## License  
 [MIT]  

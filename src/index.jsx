@@ -28,6 +28,7 @@ import ReduxFormInit from './pages/ReduxFormInit.jsx';
 import LocalizedPage from './pages/LocalizedPage.jsx';
 import DidMountFormPage from './pages/DidMountFormPage.jsx';
 import SubmitValidationFormPage from './pages/SubmitValidationFormPage.jsx';
+import BootstrapPage from './pages/BootstrapPage.jsx';
 
 /* Initial State -> Can move */
 const initialState = {
@@ -68,6 +69,7 @@ ReactDOM.render(
                     <Route exact path="/form/didmount" component={DidMountFormPage}/>
                     <Route exact path="/form/submitvalidation" component={SubmitValidationFormPage} />
                     <Route exact path="/localized" component={LocalizedPage} />
+                    <Route exact path="/bootstrap" component={BootstrapPage} />
                 </Switch>
             </Router>
         </IntlProvider>
