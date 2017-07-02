@@ -46,6 +46,7 @@ Entry file
 7. ReactForm  
 8. Localize
 9. Bootstrap
+10. File upload with Dropzone + ReduxForm
 
 ## Webpack2
 

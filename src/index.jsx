@@ -29,6 +29,7 @@ import LocalizedPage from './pages/LocalizedPage.jsx';
 import DidMountFormPage from './pages/DidMountFormPage.jsx';
 import SubmitValidationFormPage from './pages/SubmitValidationFormPage.jsx';
 import BootstrapPage from './pages/BootstrapPage.jsx';
+import ReduxFormFileUpload from './pages/ReduxFormFileUpload.jsx';
 
 /* Initial State -> Can move */
 const initialState = {
@@ -70,6 +71,7 @@ ReactDOM.render(
                     <Route exact path="/form/submitvalidation" component={SubmitValidationFormPage} />
                     <Route exact path="/localized" component={LocalizedPage} />
                     <Route exact path="/bootstrap" component={BootstrapPage} />
+                    <Route exact pat="/form/fileupload" component={ReduxFormFileUpload} />
                 </Switch>
             </Router>
         </IntlProvider>
